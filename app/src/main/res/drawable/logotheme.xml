@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO: Create the logo theme XML file-->
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <!--Select the color for the logo background-->
+    <item android:drawable="@android:color/holo_orange_dark" />
+
+
+    <!--Selecting the height and width is optional(depend on the image)-->
+    <!--TODO:Copy the LOGO image to drawable folder-->
+    <item
+
+        android:width="@android:dimen/thumbnail_height"
+        android:height="@android:dimen/thumbnail_width"
+
+        android:gravity="center">
+
+
+
+        <!--Select the logo for the Launch Screen-->
+        <bitmap
+
+            android:filter="false"
+            android:src="@drawable/logo" />
+
+    </item>
+
+</layer-list>
